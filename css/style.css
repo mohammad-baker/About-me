@@ -1,0 +1,45 @@
+* {background-color:rgb(141, 143, 156);
+}
+/* main{
+    background-color:rgb(141, 143, 156);
+} */
+img{
+   width: 300px ;
+   height: 300px ;
+}
+p{
+    font-family:cursive;
+    font-size: large;
+    text-align: center;
+}
+nav{
+    float:right;
+    text-decoration: underline;
+    text-decoration: none;
+
+}
+a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.651);
+    float:left 50px;
+
+
+}
+.lin{
+    display:inline;
+    float:left 50px;
+}
+h2{
+    font-size: larger;
+    font-display:initial;
+    font-family: fantasy;
+}
+h1{
+    font-size: larger;
+    font-display:initial;
+    font-family: fantasy;
+}
+section{
+    margin-bottom: 29px;
+    border: solid rgb(165, 86, 30);
+}
