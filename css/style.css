@@ -15,15 +15,22 @@ p{
 nav{
     float:right;
     text-decoration: underline;
-    text-decoration: none;
+    
+    
+
 
 }
+ul {
+        list-style: square outside;
+        margin-left:  20px;
+        padding-left: 0;
+    }
+
 a{
     text-decoration: none;
     color: rgba(0, 0, 0, 0.651);
     float:left 50px;
-
-
+    font-size: 40px;
 }
 .lin{
     display:inline;
@@ -42,4 +49,14 @@ h1{
 section{
     margin-bottom: 29px;
     border: solid rgb(165, 86, 30);
+}
+ol{
+    padding: 20px;
+    list-style-type: decimal;
+}
+li{
+
+
+    padding-right: 15px;
+    padding-bottom: 10px;
 }
