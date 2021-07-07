@@ -119,7 +119,8 @@ asac=asac.toUpperCase();
         console.log('the number is too high ,you have'+ i +"to try");
  }
  else{
-   num= prompt('please write a nimber between 1-16');
+
+   num= prompt('please write a nimber between 1-16 you have '+i+' try');
    console.log('please write a nimber between 1-16');
  }
 console.log(i);
@@ -141,20 +142,19 @@ loop2:
         console.log(un[x]);
         if(un[x] == fo){
             
-            alert("you are right")
+            alert("you are right this is the names"+un+' , ')
+            
             score++
             break loop1;
         }
     }
     
-     fo=prompt('guess the name of University in jordan ? there left '+y+'try')
+     fo=prompt('you are wrong ,guess the name of University in jordan ? there left '+y+'try')
      switch(y){
         case 1:
-            for(let v=0;v<un.length;v++)
-            {
-                console.log(un[v]);
-                alert(un[v]);
-            }
+                console.log(un);
+                alert('the right answer was '+ un+' , ');
+            
             break;
     }
 }
