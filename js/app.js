@@ -82,6 +82,7 @@ else{
 }
 question4();
 //5 acas 
+function question5(){
 let asac = prompt('Did I take a programming course from ASAC ??')
 asac=asac.toUpperCase();
     if(asac ==='YES' || asac==='Y' ){
@@ -98,6 +99,8 @@ asac=asac.toUpperCase();
         alert('that not answer you should answer yes or no');
         console.log('try something else');
     }
+}
+question5();
     //6th guess a number.
      
     let num = prompt('hey'+name+'can guess a number between (1 to -16) yuo four opportunities to get the correct answer');
