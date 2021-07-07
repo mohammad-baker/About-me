@@ -91,7 +91,7 @@ asac=asac.toUpperCase();
     let num = prompt('hey'+name+'can guess a number between (1 to -16) yuo four opportunities to get the correct answer');
      num = parseInt(num)
      
-    for (let i=3 ;i>0;i--) {
+    for (let i=4 ;i>0;i--) {
            if  (num === 10){
         alert("these is the right answer"+num)
         score++;
@@ -131,7 +131,7 @@ switch(i){
    let fo=prompt('guess the name of University in jordan ?')
    let un=['just','University of Jordan','Hashemite','Yarmouk'];
 loop1:
-   for(let y=5;y>0;y--){
+   for(let y=6;y>0;y--){
 loop2:
     for(let x=0;x<un.length;x++){
         console.log(un[x]);
