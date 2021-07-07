@@ -149,7 +149,7 @@ switch(i){
 }
      }
      question6();
-     
+     function question7(){
    let fo=prompt('guess the name of University in jordan ?')
    let un=['just','University of Jordan','Hashemite','Yarmouk'];
 loop1:
@@ -175,6 +175,7 @@ loop2:
             break;
     }
 }
-   
+}
+question7();
    
 alert('your score is '+score+'/7');
