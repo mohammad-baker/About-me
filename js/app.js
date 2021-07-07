@@ -62,6 +62,7 @@ else{
 }
 question3();
 //4
+function question4(){
 let solid = prompt('do I have skills in solidworks programme ??')
 solid=solid.toLowerCase();
 if(solid ==='yes' || solid==='y' ){
@@ -78,6 +79,8 @@ else{
     alert('that not answer you should answer yes or no');
     console.log('try something else');
 }
+}
+question4();
 //5 acas 
 let asac = prompt('Did I take a programming course from ASAC ??')
 asac=asac.toUpperCase();
