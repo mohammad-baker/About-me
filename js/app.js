@@ -4,6 +4,7 @@ alert('welcome '+ name +' lets play a guessing game .')
 console.log('his name is ',name);
 let score = 0;
 //1 my name
+function question1(){
 let me = prompt('Is my name Mohammad altaeab ??')
 me=me.toLowerCase();
 if(me ==='yes' || me ==='y' ){
@@ -19,6 +20,8 @@ else{
     alert('that not answer you should answer yes or no');
     console.log('try something else');
 }
+}
+question1();
 //2 my study 
 let study = prompt('Did I study mechanical engineering? ??')
 study=study.toLowerCase();
