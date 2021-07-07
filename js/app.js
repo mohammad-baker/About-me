@@ -92,7 +92,7 @@ asac=asac.toUpperCase();
      num = parseInt(num)
      
     for (let i=4 ;i>0;i--) {
-           if  (num === 10){
+           if  (num == 10){
         alert("these is the right answer"+num)
         score++;
         break;
@@ -117,6 +117,9 @@ asac=asac.toUpperCase();
  else if (num >= 16){
          num =prompt('the number is too high ,you have'+ i +"to try");
         console.log('the number is too high ,you have'+ i +"to try");
+ }
+ else{
+     alert('please write a nimber');
  }
 console.log(i);
 num = parseInt(num)
