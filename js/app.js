@@ -23,6 +23,7 @@ else{
 }
 question1();
 //2 my study 
+function question2(){
 let study = prompt('Did I study mechanical engineering? ??')
 study=study.toLowerCase();
 if(study ==='yes' || study ==='y' ){
@@ -38,6 +39,8 @@ else{
     alert('that not answer you should answer yes or no');
     console.log('try something else');
 }
+}
+question2();
 //3my garduat 2021
 let grad = prompt('Did I graduate lasr year?? ??')
 grad=grad.toUpperCase();
