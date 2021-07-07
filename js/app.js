@@ -96,7 +96,7 @@ asac=asac.toUpperCase();
         alert("these is the right answer"+num)
         score++;
         break;
-
+        num = parseInt(num)
     }    
  else if(num <= 5){
          num =prompt('the numberis too low, you have'+ i +"to try");
@@ -119,7 +119,8 @@ asac=asac.toUpperCase();
         console.log('the number is too high ,you have'+ i +"to try");
  }
  else{
-     alert('please write a nimber');
+   num= prompt('please write a nimber between 1-16');
+   console.log('please write a nimber between 1-16');
  }
 console.log(i);
 num = parseInt(num)
