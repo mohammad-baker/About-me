@@ -102,7 +102,7 @@ asac=asac.toUpperCase();
 }
 question5();
     //6th guess a number.
-     
+     function question6(){
     let num = prompt('hey'+name+'can guess a number between (1 to -16) yuo four opportunities to get the correct answer');
      num = parseInt(num)
      
@@ -147,7 +147,9 @@ switch(i){
         break;
    }
 }
-
+     }
+     question6();
+     
    let fo=prompt('guess the name of University in jordan ?')
    let un=['just','University of Jordan','Hashemite','Yarmouk'];
 loop1:
@@ -173,4 +175,6 @@ loop2:
             break;
     }
 }
+   
+   
 alert('your score is '+score+'/7');
