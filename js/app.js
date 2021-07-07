@@ -42,6 +42,7 @@ else{
 }
 question2();
 //3my garduat 2021
+function question3(){
 let grad = prompt('Did I graduate lasr year?? ??')
 grad=grad.toUpperCase();
 if(grad ==='YES' || grad ==='Y' ){
@@ -58,6 +59,8 @@ else{
     alert('that not answer you should answer yes or no');
     console.log('try something else');
 }
+}
+question3();
 //4
 let solid = prompt('do I have skills in solidworks programme ??')
 solid=solid.toLowerCase();
