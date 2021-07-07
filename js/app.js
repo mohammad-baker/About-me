@@ -4,6 +4,7 @@ alert('welcome '+ name +' lets play a guessing game .')
 console.log('his name is ',name);
 let score = 0;
 //1 my name
+function question1(){
 let me = prompt('Is my name Mohammad altaeab ??')
 me=me.toLowerCase();
 if(me ==='yes' || me ==='y' ){
@@ -19,7 +20,10 @@ else{
     alert('that not answer you should answer yes or no');
     console.log('try something else');
 }
+}
+question1();
 //2 my study 
+function question2(){
 let study = prompt('Did I study mechanical engineering? ??')
 study=study.toLowerCase();
 if(study ==='yes' || study ==='y' ){
@@ -35,7 +39,10 @@ else{
     alert('that not answer you should answer yes or no');
     console.log('try something else');
 }
+}
+question2();
 //3my garduat 2021
+function question3(){
 let grad = prompt('Did I graduate lasr year?? ??')
 grad=grad.toUpperCase();
 if(grad ==='YES' || grad ==='Y' ){
@@ -52,7 +59,10 @@ else{
     alert('that not answer you should answer yes or no');
     console.log('try something else');
 }
+}
+question3();
 //4
+function question4(){
 let solid = prompt('do I have skills in solidworks programme ??')
 solid=solid.toLowerCase();
 if(solid ==='yes' || solid==='y' ){
@@ -69,7 +79,10 @@ else{
     alert('that not answer you should answer yes or no');
     console.log('try something else');
 }
+}
+question4();
 //5 acas 
+function question5(){
 let asac = prompt('Did I take a programming course from ASAC ??')
 asac=asac.toUpperCase();
     if(asac ==='YES' || asac==='Y' ){
@@ -86,8 +99,10 @@ asac=asac.toUpperCase();
         alert('that not answer you should answer yes or no');
         console.log('try something else');
     }
+}
+question5();
     //6th guess a number.
-     
+     function question6(){
     let num = prompt('hey'+name+'can guess a number between (1 to -16) yuo four opportunities to get the correct answer');
      num = parseInt(num)
      
@@ -132,7 +147,9 @@ switch(i){
         break;
    }
 }
-
+     }
+     question6();
+     function question7(){
    let fo=prompt('guess the name of University in jordan ?')
    let un=['just','University of Jordan','Hashemite','Yarmouk'];
 loop1:
@@ -158,4 +175,7 @@ loop2:
             break;
     }
 }
+}
+question7();
+   
 alert('your score is '+score+'/7');
