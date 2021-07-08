@@ -1,24 +1,25 @@
-* {background-color:rgb(141, 143, 156);
-}
-/* main{
-    background-color:rgb(141, 143, 156);
-} */
+/* * {background-color:rgb(141, 143, 156);
+
+ main{
+    background-color:rgb(141, 143, 156); */
+
 img{
-   width: 300px ;
-   height: 300px ;
+  /* width: 37%;  */
+  margin-top: 10%;
+  /* position: center; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%
 }
 p{
-    font-family:cursive;
-    font-size: large;
+    font-size: 30px;
     text-align: center;
+    font-family: 'Zen Tokyo Zoo', cursive;
 }
 nav{
     float:right;
     text-decoration: underline;
-    
-    
-
-
 }
 ul {
         list-style: square outside;
@@ -28,9 +29,12 @@ ul {
 
 a{
     text-decoration: none;
-    color: rgba(0, 0, 0, 0.651);
+    color:black;
     float:left 50px;
     font-size: 40px;
+    position: sticky;
+    background-color: rgb(18, 3, 85);
+    border: dashed;
 }
 .lin{
     display:inline;
@@ -42,13 +46,12 @@ h2{
     font-family: fantasy;
 }
 h1{
-    font-size: larger;
-    font-display:initial;
-    font-family: fantasy;
+    font-size: 40px;
+    border:10px solid #33345e88  ;
 }
 section{
     margin-bottom: 29px;
-    border: solid rgb(165, 86, 30);
+    border: solid rgb(29, 16, 102);
 }
 ol{
     padding: 20px;
@@ -60,3 +63,22 @@ li{
     padding-right: 15px;
     padding-bottom: 10px;
 }
+header{
+    background-color: rgb(51, 54, 88);
+    border: darkslategrey;
+    height: 40px;
+  padding: 50px 10px;
+  color: black;
+  text-align: center;
+  font-size: 90px;
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: 0.2s;
+  
+}
+body{
+    background-color: rgb(110, 118, 184);
+}
+

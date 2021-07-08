@@ -10,6 +10,7 @@ i was stuck in how can use if statmen in for loop and i face anthor issue to mak
 i make ul unorederd list and orederd list and try to style them in css to see the bult and number
 ## 4
 i use a way to make score in the correct answers 
+## i add font fanily from google and play with the syle on css and delete all consol log and commint 
 
     if(asac ==='YES' || asac==='Y' ){
         console.log('yes ',name, ' you are correct');
